@@ -1,0 +1,66 @@
+/* Import Fonts from Google */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=Outfit:wght@400;700&display=swap");
+
+/* Define Variables */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+  --fontOutfit: "Outfit", sans-serif;
+}
+
+/* CSS Codes */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--lightGray);
+  font-family: var(--fontOutfit);
+}
+
+.qr-container {
+  width: calc(100% - 30px);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.qr-box {
+  width: 100%;
+  max-width: 315px;
+  background-color: var(--white);
+  padding: 15px 15px;
+  border-radius: 22px;
+  box-shadow: 8px 8px 18px -11px var(--grayishBlue);
+}
+.qr-content-area img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.qr-content {
+  padding: 15px 20px;
+}
+
+.qr-content .qr-title {
+  margin-bottom: 20px;
+  color: var(--darkBlue);
+  text-align: center;
+  line-height: normal;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.qr-content .qr-text {
+  color: var(--grayishBlue);
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 400;
+}
