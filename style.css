@@ -37,7 +37,7 @@ body {
   background-color: var(--white);
   padding: 15px 15px;
   border-radius: 22px;
-  box-shadow: 8px 8px 18px -11px var(--grayishBlue);
+  box-shadow: 8px 8px 72px -27px var(--grayishBlue);
 }
 .qr-content-area img {
   width: 100%;
